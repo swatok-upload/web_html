@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <p>Первое задание</p>
+    </head>
+    <body>
+        <meta charset="utf-8">
+        <script>
+            ball = 0
+            output = 'Привет, вот тебе первая загадка, твой балл'+ ' ' + Number(ball)
+            alert(output)
+            let onezagadka = prompt('Было шесть машин, две продали, сколько осталось?')
+            if (onezagadka == 4){
+                ball = ball + 1
+                twooutput = 'Ты угадал, твой балл равен' + ' ' + Number(ball)
+                alert(twooutput)
+            }
+            else{
+                alert('Ты ошибся ответом')
+            }
+            let twozagadka = prompt('Назови год создания Р.Ф.')
+            if (twozagadka == 1991){
+                ball = ball + 1
+                twooutput = 'Ты угадал, твой балл равен' + ' ' + Number(ball)
+                alert(twooutput)
+            }
+            else{
+                alert('Ты ошибся ответом')
+            }
+            threeoutput = 'твой ответ' + ' ' + Number(ball)
+            alert(threeoutput)
+        </script>
+    </body>
+</html>
